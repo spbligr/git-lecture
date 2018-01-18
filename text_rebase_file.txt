@@ -1,1 +1,2 @@
 Bla bla file testing rebase
+New ntext
