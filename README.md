@@ -11,16 +11,16 @@
 ```git --amend ```
 
 * Отмена индексации файла 
-``` <git --reset HEAD filename>```
+```git --reset HEAD filename```
 
 * Отмена изменений файла
-```<git checkout file>```
+```git checkout file```
 
 * Отмена последнего коммита путем созданием нового коммита
-```<git revert HEAD>```
+```git revert HEAD``` или ```git revert --soft HEAD^```
 
 * Отмена последнего коммита путем удаления коммита
-
+```git reset --hard HEAD^```
 
 7. Merge (слияние) и rebase (перемещение - чето пока сам не въехал). Основная разница
 
